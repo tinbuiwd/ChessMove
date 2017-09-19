@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83CECF181F70F26600DDF824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF171F70F26600DDF824 /* main.m */; };
+		83CECF211F70F26600DDF824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CECF1F1F70F26600DDF824 /* Main.storyboard */; };
+		83CECF231F70F26600DDF824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CECF221F70F26600DDF824 /* Assets.xcassets */; };
+		83CECF261F70F26600DDF824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CECF241F70F26600DDF824 /* LaunchScreen.storyboard */; };
+		83CECF311F70F26600DDF824 /* ChessMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF301F70F26600DDF824 /* ChessMoveTests.m */; };
+		83CECF3C1F70F26600DDF824 /* ChessMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF3B1F70F26600DDF824 /* ChessMoveUITests.m */; };
+		83CECF4F1F70FFEF00DDF824 /* ChessObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF4A1F70FFEF00DDF824 /* ChessObj.m */; };
+		83CECF501F70FFEF00DDF824 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF4C1F70FFEF00DDF824 /* ChessView.m */; };
+		83CECF511F70FFEF00DDF824 /* PlayScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF4E1F70FFEF00DDF824 /* PlayScreen.m */; };
+		83CECF541F71000C00DDF824 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CECF531F71000C00DDF824 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83CECF2D1F70F26600DDF824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CECF0B1F70F26600DDF824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CECF121F70F26600DDF824;
+			remoteInfo = ChessMove;
+		};
+		83CECF381F70F26600DDF824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CECF0B1F70F26600DDF824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CECF121F70F26600DDF824;
+			remoteInfo = ChessMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83CECF131F70F26600DDF824 /* ChessMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CECF171F70F26600DDF824 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83CECF201F70F26600DDF824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83CECF221F70F26600DDF824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83CECF251F70F26600DDF824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83CECF271F70F26600DDF824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CECF2C1F70F26600DDF824 /* ChessMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CECF301F70F26600DDF824 /* ChessMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessMoveTests.m; sourceTree = "<group>"; };
+		83CECF321F70F26600DDF824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CECF371F70F26600DDF824 /* ChessMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CECF3B1F70F26600DDF824 /* ChessMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessMoveUITests.m; sourceTree = "<group>"; };
+		83CECF3D1F70F26600DDF824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CECF491F70FFEF00DDF824 /* ChessObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessObj.h; sourceTree = "<group>"; };
+		83CECF4A1F70FFEF00DDF824 /* ChessObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessObj.m; sourceTree = "<group>"; };
+		83CECF4B1F70FFEF00DDF824 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		83CECF4C1F70FFEF00DDF824 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
+		83CECF4D1F70FFEF00DDF824 /* PlayScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreen.h; sourceTree = "<group>"; };
+		83CECF4E1F70FFEF00DDF824 /* PlayScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreen.m; sourceTree = "<group>"; };
+		83CECF521F71000C00DDF824 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83CECF531F71000C00DDF824 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CECF101F70F26600DDF824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF291F70F26600DDF824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF341F70F26600DDF824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CECF0A1F70F26600DDF824 = {
+			isa = PBXGroup;
+			children = (
+				83CECF151F70F26600DDF824 /* ChessMove */,
+				83CECF2F1F70F26600DDF824 /* ChessMoveTests */,
+				83CECF3A1F70F26600DDF824 /* ChessMoveUITests */,
+				83CECF141F70F26600DDF824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83CECF141F70F26600DDF824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF131F70F26600DDF824 /* ChessMove.app */,
+				83CECF2C1F70F26600DDF824 /* ChessMoveTests.xctest */,
+				83CECF371F70F26600DDF824 /* ChessMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CECF151F70F26600DDF824 /* ChessMove */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF551F71050600DDF824 /* ChessObj */,
+				83CECF4D1F70FFEF00DDF824 /* PlayScreen.h */,
+				83CECF4E1F70FFEF00DDF824 /* PlayScreen.m */,
+				83CECF1F1F70F26600DDF824 /* Main.storyboard */,
+				83CECF161F70F26600DDF824 /* Supporting Files */,
+			);
+			path = ChessMove;
+			sourceTree = "<group>";
+		};
+		83CECF161F70F26600DDF824 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF221F70F26600DDF824 /* Assets.xcassets */,
+				83CECF241F70F26600DDF824 /* LaunchScreen.storyboard */,
+				83CECF271F70F26600DDF824 /* Info.plist */,
+				83CECF521F71000C00DDF824 /* AppDelegate.h */,
+				83CECF531F71000C00DDF824 /* AppDelegate.m */,
+				83CECF171F70F26600DDF824 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83CECF2F1F70F26600DDF824 /* ChessMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF301F70F26600DDF824 /* ChessMoveTests.m */,
+				83CECF321F70F26600DDF824 /* Info.plist */,
+			);
+			path = ChessMoveTests;
+			sourceTree = "<group>";
+		};
+		83CECF3A1F70F26600DDF824 /* ChessMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF3B1F70F26600DDF824 /* ChessMoveUITests.m */,
+				83CECF3D1F70F26600DDF824 /* Info.plist */,
+			);
+			path = ChessMoveUITests;
+			sourceTree = "<group>";
+		};
+		83CECF551F71050600DDF824 /* ChessObj */ = {
+			isa = PBXGroup;
+			children = (
+				83CECF491F70FFEF00DDF824 /* ChessObj.h */,
+				83CECF4A1F70FFEF00DDF824 /* ChessObj.m */,
+				83CECF4B1F70FFEF00DDF824 /* ChessView.h */,
+				83CECF4C1F70FFEF00DDF824 /* ChessView.m */,
+			);
+			name = ChessObj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CECF121F70F26600DDF824 /* ChessMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CECF401F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMove" */;
+			buildPhases = (
+				83CECF0F1F70F26600DDF824 /* Sources */,
+				83CECF101F70F26600DDF824 /* Frameworks */,
+				83CECF111F70F26600DDF824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessMove;
+			productName = ChessMove;
+			productReference = 83CECF131F70F26600DDF824 /* ChessMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83CECF2B1F70F26600DDF824 /* ChessMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CECF431F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMoveTests" */;
+			buildPhases = (
+				83CECF281F70F26600DDF824 /* Sources */,
+				83CECF291F70F26600DDF824 /* Frameworks */,
+				83CECF2A1F70F26600DDF824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83CECF2E1F70F26600DDF824 /* PBXTargetDependency */,
+			);
+			name = ChessMoveTests;
+			productName = ChessMoveTests;
+			productReference = 83CECF2C1F70F26600DDF824 /* ChessMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83CECF361F70F26600DDF824 /* ChessMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CECF461F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMoveUITests" */;
+			buildPhases = (
+				83CECF331F70F26600DDF824 /* Sources */,
+				83CECF341F70F26600DDF824 /* Frameworks */,
+				83CECF351F70F26600DDF824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83CECF391F70F26600DDF824 /* PBXTargetDependency */,
+			);
+			name = ChessMoveUITests;
+			productName = ChessMoveUITests;
+			productReference = 83CECF371F70F26600DDF824 /* ChessMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CECF0B1F70F26600DDF824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bui Van Tin";
+				TargetAttributes = {
+					83CECF121F70F26600DDF824 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P2E5B9D2JU;
+						ProvisioningStyle = Automatic;
+					};
+					83CECF2B1F70F26600DDF824 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P2E5B9D2JU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83CECF121F70F26600DDF824;
+					};
+					83CECF361F70F26600DDF824 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P2E5B9D2JU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83CECF121F70F26600DDF824;
+					};
+				};
+			};
+			buildConfigurationList = 83CECF0E1F70F26600DDF824 /* Build configuration list for PBXProject "ChessMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CECF0A1F70F26600DDF824;
+			productRefGroup = 83CECF141F70F26600DDF824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CECF121F70F26600DDF824 /* ChessMove */,
+				83CECF2B1F70F26600DDF824 /* ChessMoveTests */,
+				83CECF361F70F26600DDF824 /* ChessMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CECF111F70F26600DDF824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CECF261F70F26600DDF824 /* LaunchScreen.storyboard in Resources */,
+				83CECF231F70F26600DDF824 /* Assets.xcassets in Resources */,
+				83CECF211F70F26600DDF824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF2A1F70F26600DDF824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF351F70F26600DDF824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CECF0F1F70F26600DDF824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CECF501F70FFEF00DDF824 /* ChessView.m in Sources */,
+				83CECF511F70FFEF00DDF824 /* PlayScreen.m in Sources */,
+				83CECF4F1F70FFEF00DDF824 /* ChessObj.m in Sources */,
+				83CECF181F70F26600DDF824 /* main.m in Sources */,
+				83CECF541F71000C00DDF824 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF281F70F26600DDF824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CECF311F70F26600DDF824 /* ChessMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CECF331F70F26600DDF824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CECF3C1F70F26600DDF824 /* ChessMoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83CECF2E1F70F26600DDF824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83CECF121F70F26600DDF824 /* ChessMove */;
+			targetProxy = 83CECF2D1F70F26600DDF824 /* PBXContainerItemProxy */;
+		};
+		83CECF391F70F26600DDF824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83CECF121F70F26600DDF824 /* ChessMove */;
+			targetProxy = 83CECF381F70F26600DDF824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83CECF1F1F70F26600DDF824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CECF201F70F26600DDF824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83CECF241F70F26600DDF824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CECF251F70F26600DDF824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83CECF3E1F70F26600DDF824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CECF3F1F70F26600DDF824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83CECF411F70F26600DDF824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83CECF421F70F26600DDF824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83CECF441F70F26600DDF824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessMove.app/ChessMove";
+			};
+			name = Debug;
+		};
+		83CECF451F70F26600DDF824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChessMove.app/ChessMove";
+			};
+			name = Release;
+		};
+		83CECF471F70F26600DDF824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChessMove;
+			};
+			name = Debug;
+		};
+		83CECF481F70F26600DDF824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P2E5B9D2JU;
+				INFOPLIST_FILE = ChessMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tinbui.com.ChessMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChessMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CECF0E1F70F26600DDF824 /* Build configuration list for PBXProject "ChessMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CECF3E1F70F26600DDF824 /* Debug */,
+				83CECF3F1F70F26600DDF824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CECF401F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CECF411F70F26600DDF824 /* Debug */,
+				83CECF421F70F26600DDF824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83CECF431F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CECF441F70F26600DDF824 /* Debug */,
+				83CECF451F70F26600DDF824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83CECF461F70F26600DDF824 /* Build configuration list for PBXNativeTarget "ChessMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CECF471F70F26600DDF824 /* Debug */,
+				83CECF481F70F26600DDF824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CECF0B1F70F26600DDF824 /* Project object */;
+}
